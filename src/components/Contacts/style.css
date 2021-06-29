@@ -1,0 +1,48 @@
+#container{
+    width : 400px ;
+    background-color: aqua;
+    padding: 20px ;
+    margin : 30px ;
+
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+ul ,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none ;
+}
+.list{
+    margin: 15px 0;
+
+}
+.list li{
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px ;
+    margin-bottom: 2px;
+    display :flex;
+    justify-content: space-between;
+}
+.btn{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+.header{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+p{
+    text-align: center;
+    color: purple;
+}
